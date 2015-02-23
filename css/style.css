@@ -41,6 +41,11 @@ body {
 
 .cat > img {
 	max-width: 100%;
+	transition: transform .5s;
+}
+
+.cat > img:hover {
+	transform: rotate(360deg);
 }
 
 h1 {
